@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <title>displaying bucket images</title>
+        <link rel="stylesheet" href="https://deekshi.s3.jp-tok.cloud-object-storage.appdomain.cloud/flwr.css"/>
+    </head>
+    <body>
+
+       
+        <img src="https://cdn.pixabay.com/photo/2016/02/27/06/43/cherry-blossom-tree-1225186__340.jpg" >
+       
+        <img src="https://wallpaperaccess.com/full/4354722.jpg" >
+       
+        <img src="https://i.pinimg.com/736x/91/b7/9d/91b79dbaaede239a8b261660ed81b1e7--pink-flower-wallpaper-hd-wallpaper.jpg" >
+       
+        <img src="https://i.pinimg.com/originals/65/67/d3/6567d36e1e4e33ab88e0b55d32acf392.jpg" >
+       
+        <img src="https://www.statnews.com/wp-content/uploads/2020/02/Coronavirus-CDC-645x645.jpg" >
+
+        <script>
+  window.watsonAssistantChatOptions = {
+    integrationID: "1c86ebb4-ec05-4e3b-bb6f-35e1588d07bc", // The ID of this integration.
+    region: "us-south", // The region your integration is hosted in.
+    serviceInstanceID: "4d6c413e-aee1-48fb-ab10-36e7e2b4c61a", // The ID of your service instance.
+    onLoad: function(instance) { instance.render(); }
+  };
+  setTimeout(function(){
+    const t=document.createElement('script');
+    t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+    document.head.appendChild(t);
+  });
+</script>
+    </body>
+</html>
